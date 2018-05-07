@@ -1,0 +1,35 @@
+{
+  "name": "pam-auth-express",
+  "version": "1.0.0",
+  "description": "PAM Authentification for express",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "authenticate-pam": "^1.0.2",
+    "basic-auth": "^2.0.0"
+  },
+  "devDependencies": {
+    "express": "^4.16.3"
+  },
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hugome/pam-auth-express.git"
+  },
+  "keywords": [
+    "pam",
+    "auth",
+    "express"
+  ],
+  "author": "Hugo Meyronneinc",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Hugome/pam-auth-express/issues"
+  },
+  "homepage": "https://github.com/Hugome/pam-auth-express#readme"
+}
